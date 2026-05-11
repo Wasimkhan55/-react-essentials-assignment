@@ -1,0 +1,172 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#eef0f5;
+}
+
+.container{
+  min-height:100vh;
+  padding:40px;
+  transition:0.3s;
+}
+
+.dark{
+  background:#1f1f1f;
+  color:white;
+}
+
+.theme{
+  text-align:right;
+  margin-bottom:20px;
+}
+
+.theme button{
+  padding:12px 20px;
+  border:none;
+  border-radius:20px;
+  background:white;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.main-card{
+  background:white;
+  border-radius:25px;
+  padding:30px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.dark .main-card{
+  background:#2c2c2c;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+}
+
+.header span{
+  color:gray;
+  font-size:14px;
+}
+
+.search-box{
+  margin-top:30px;
+  display:flex;
+  gap:15px;
+}
+
+.search-box input{
+  flex:1;
+  padding:15px;
+  border-radius:15px;
+  border:1px solid #ccc;
+  font-size:18px;
+}
+
+.search-box button{
+  padding:15px 25px;
+  border:none;
+  border-radius:15px;
+  background:#3b5bfd;
+  color:white;
+  cursor:pointer;
+}
+
+.results{
+  margin-top:20px;
+  color:gray;
+}
+
+.content{
+  display:flex;
+  gap:30px;
+  margin-top:30px;
+}
+
+.movies{
+  flex:2;
+}
+
+.favorites{
+  flex:1;
+}
+
+.movie-card{
+  background:#f3f5fb;
+  padding:20px;
+  border-radius:20px;
+  margin-bottom:20px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  transition:0.3s;
+}
+
+.movie-card:hover{
+  transform:translateY(-5px) scale(1.02);
+  box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.tags{
+  margin-top:10px;
+}
+
+.tag{
+  display:inline-block;
+  background:white;
+  padding:6px 12px;
+  border-radius:20px;
+  margin:5px;
+  font-size:14px;
+
+  transition:0.3s;
+}
+
+.tag:hover{
+  background:#3b5bfd;
+  color:white;
+  transform:scale(1.1);
+}
+
+.rating{
+  display:inline-block;
+  margin-top:10px;
+  background:#ffd86b;
+  padding:6px 12px;
+  border-radius:20px;
+}
+
+.fav-btn{
+  padding:12px 18px;
+  border:none;
+  border-radius:15px;
+  cursor:pointer;
+  background:white;
+
+  transition:0.3s;
+}
+
+.fav-btn:hover{
+  transform:scale(1.08);
+}
+
+.active{
+  background:#ff5d5d;
+  color:white;
+}
+
+.favorite-item{
+  background:#f3f5fb;
+  padding:15px;
+  border-radius:15px;
+  margin-bottom:15px;
+
+  transition:0.3s;
+}
+
+.favorite-item:hover{
+  transform:translateX(5px);
+}
